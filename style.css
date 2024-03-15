@@ -19,7 +19,7 @@ tlačítko twitter          #1da1f2
   margin-bottom: 0;
   padding: 0;
   text-align: center;
-  display:block;
+  display: block;
 }
 
 .logo {
@@ -43,26 +43,32 @@ tlačítko twitter          #1da1f2
   display: block
 }
 
+h1 {
+  color: #bdc3c7;
+}
+
 body {
   background-color: #bdc3c7;
-  color: white;
   margin: 0 auto;
   margin-top: 0;
   max-width: 20em;
-  display:block;
+  display: block;
   }
 
 p {
-font-family: "Source Sans 3", sans-serif;
-font-size: 14px;
-line-height: 1,5
+  color: #bdc3c7;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 14px;
+  line-height: 1.5
 }
 
 a {
   text-decoration: none;
   color: #bdc3c7;
   font-weight: bold;
-  padding: 10px 30px;
+  padding: 10px 10px;
+  width: 100%;
+  display: block
 }
 
 .jmeno,
@@ -86,25 +92,20 @@ a {
   table-layout: fixed;
   border-spacing: 10px;
   padding: 0;
-  margin: 0
+  margin: 0;
 }
 
 .portfolio {
   border-top: 1px solid #3f464d;
+  border-bottom: 1px solid #3f464d;
   display: inline-block;
-  padding: 10px 0
+  width: 100%;
   }
-
-.container {
-  display: flex;
-}
 
 .facebook,
 .twitter {
-  flex-grow: 2;
-  border-top: 1px solid #3f464d;
   display: inline-block;
-  padding: 10px 0
+  width: 49%;
 }
 
 .facebook {
